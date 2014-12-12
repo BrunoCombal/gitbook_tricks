@@ -2,4 +2,4 @@
 
 * [Introduction](README.md)
 
-*[Graticules](graticule.md)
+* [Graticules](graticule.md)
