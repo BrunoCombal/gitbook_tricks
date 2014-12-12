@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Graticules
+* [Graticules](graticule.md)
 
