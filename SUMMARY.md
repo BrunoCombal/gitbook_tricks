@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Graticules](graticule.md)
+* [Polar projections](polar_projections.md)
 
