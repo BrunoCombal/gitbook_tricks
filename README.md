@@ -1,4 +1,4 @@
-# QGis tricks
+# Gis tricks
 
 QuantumGIS (a.k.a QGIS) is an open-source freeware for GIS. Making beautiful maps or consistent computation sometimes require circonvoluted operation.
 

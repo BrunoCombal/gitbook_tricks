@@ -2,9 +2,9 @@
 Open QGIS, and create a grid, using "Vector/Research Tools/Vector Grid".
 Let's create a grid to wrap around the North pole:
 xmin:-180°, xmax:180°, ymin:40°, ymax:85°. Set the X step to 10° and the Y step to 5°, and save the file as lines to a shapefile.
-Tip: to show labels, tick-off the option "Discourage labels from covering features" in the layer style. To have the labels written every 20°, you can edit the condition to label the layer like this:
+Tip: to show labels, tick-off the option "Discourage labels from covering features" in the layer style. To have the labels written every 20°, and for not showing -180° together with 180° on the same line, you can edit the condition to label the layer like this:
 
-CASE WHEN ( COORD = (2 * toint(COORD / 2)) ) THEN COORD END
+CASE WHEN ( 0.1*COORD = (2 * toint(COORD / 20)) AND (COORD>-180)) THEN COORD END
 
 ![EPSG:4326 grid](qgis_project/illustrations/grid_10_5_epsg4326.png "EPSG:4326 grid")
 
